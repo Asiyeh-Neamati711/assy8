@@ -1,0 +1,151 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sticky Navigation Styling */
+  nav {
+    background-color: #333;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  /* Product Container Styling */
+  .product-container {
+    background-color: white;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Row Styling */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Product Image and Details Styling */
+  .product-image,
+  .product-detail {
+    width: 48%;
+  }
+  
+  .product-image img {
+    width: 100%;
+  }
+  
+  .promo-code {
+    background-color: #ffd700;
+    border: 1px solid #ffa500;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .related-product {
+    width: 23%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .related-product img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .related-product-name {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: none;
+  }
+  
+  .related-product:hover .related-product-name {
+    display: block;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* About Page Styling */
+  .main-image {
+    position: relative;
+  }
+  
+  .main-image img {
+    width: 100%;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    display: none;
+  }
+  
+  .main-image:hover .caption {
+    display: block;
+  }
+  
+  .team-member {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
